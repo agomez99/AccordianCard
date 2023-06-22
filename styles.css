@@ -21,6 +21,7 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 .container-fluid {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -102,7 +103,9 @@ p{
   display: flex;
   width:350px;
 }
-
+.dropdown-menu{
+  width:400px;
+}
 
 hr{
   color: black;
@@ -123,4 +126,34 @@ hr{
   .box-image{
  display: none;
   }
+  p{
+    font-size: 12px;
+  }
+  .content-card{
+    border-radius:25px;
+    background-color: white;
+    z-index:0;
+  
+  }
+  .img-col{
+    background-image: url('/images/bg-pattern-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -100px;
+    position: relative;
+    display: flex;
+    height: 300px;
+  }
+  .banner-image-mobile{
+   top:-50px;
+    position: relative;
+  }
+  .drop-item{
+    display: flex;
+    width:280px
+  }
+  .dropdown-menu{
+    width:280px;
+  }
+  
 }
