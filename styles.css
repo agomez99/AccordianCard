@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 * {
   box-sizing: border-box;
@@ -31,13 +32,17 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
 }
 .header-text{
-  font-weight:bolder;
+ font-weight:BOLD;
   font-size: 2rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-bottom: 10%;
 }
 .content-card{
   border-radius:25px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: white;
-  width:60rem;
+  width:58rem;
   z-index:1;
 
 }
@@ -57,7 +62,7 @@ background-color:aqua;
 }
 .box-image{
   height:250px;
-  left: -200px;
+  left: -210px;
   bottom:-60px;
   position: relative;
   z-index: 3;
@@ -79,29 +84,21 @@ main {
   left:-150
 }
 
-h1 {
-  font-family: 'Kumbh Sans', sans-serif;
-
-}
 p{
-  font-size: 15px;
+  font-size: 13px;
 }
-.drop{
-  --bs-btn-padding-y:0rem;
- 
- }
+
 .dropdown:hover{
   color:hsl(14, 88%, 65%);
 }
-.dropdown:focus{
+.p:active{
   color:hsl(0, 0%, 0%);
   font-weight: bold;
 }
 .drop-down-column{
-  display: column;
   justify-content: center;
   align-items: center;
-  margin:5% 25% 5% 5%;
+  margin:15% 10% 5% 5%;
   font-size: 12px;
 
 }
@@ -110,15 +107,18 @@ p{
   width:350px;
 }
 .dropdown-menu{
-  width:400px;
+  width:350px;
 }
 
 hr{
-  color: black;
+  color: hsl(240, 5%, 91%)
 }
 .arrow{
   margin-left: auto;
   height:10px
+}
+.active img {
+  transform: rotate(180deg);
 }
 
 @media (max-width: 600px) {
@@ -138,28 +138,34 @@ hr{
   .content-card{
     border-radius:25px;
     background-color: white;
+    height:40rem;
     z-index:0;
   
   }
+  h1{
+    text-align: center;
+  }
   .img-col{
     background-image: url('/images/bg-pattern-desktop.svg');
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: -100px;
     position: relative;
-    display: flex;
-    height: 300px;
+    background-position-x: center;
+    top:-180px;
+
   }
   .banner-image-mobile{
-   top:-50px;
     position: relative;
+  }
+  .drop-down-column{
+    top:-180px;
+    position:relative;
   }
   .drop-item{
     display: flex;
     width:280px
   }
   .dropdown-menu{
-    width:280px;
+    width:220px;
   }
   
 }
