@@ -2,7 +2,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/agomez99/AccordianCard](https://github.com/agomez99/AccordianCard)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -17,5 +17,5 @@
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [https://austinegomez.com/](https://austinegomez.com)
+- Frontend Mentor - [@agomez99 ](https://www.frontendmentor.io/profile/agomez99)
